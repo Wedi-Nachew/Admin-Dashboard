@@ -21,6 +21,10 @@ label{
     font-family: inherit;
     font-size: 100%;
 }
+div.search{
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
 .header  img {
     height: 30px;
     width: auto;
