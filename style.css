@@ -25,6 +25,9 @@ div.search{
     display: grid;
     grid-template-columns: auto 1fr;
 }
+input[type=search]{
+    appearance: none;
+}
 .header  img {
     height: 30px;
     width: auto;
