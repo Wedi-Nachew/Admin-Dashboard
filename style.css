@@ -147,4 +147,9 @@ div.header-second-row{
 
 .projects{
     grid-row: span 2;
+    grid-template-rows: auto 1fr;
+}
+.project-cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
