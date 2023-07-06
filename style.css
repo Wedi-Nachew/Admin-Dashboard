@@ -8,11 +8,12 @@
     grid-row: 1/2;
     display: grid;
     grid-template-rows: 1fr 1fr;
+    padding: 20px 40px;
 }
 .header-first-row{
     display: grid;
-    grid-template-columns: 1fr repeat(4, auto);
-    gap: 20px;
+    grid-template-columns: 1fr auto;
+    gap: 200px;
 }
 input,
 button,
