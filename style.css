@@ -6,7 +6,15 @@
 .header{
     grid-column: 2;
     grid-row: 1/2;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
 }
+.header-first-row{
+    display: grid;
+    grid-template-columns: 1fr repeat(4, auto);
+}
+
+
 .sidebar{
     grid-row: 1/3;
 }
