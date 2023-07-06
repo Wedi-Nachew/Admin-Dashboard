@@ -68,6 +68,13 @@ div.header-second-row{
 }
 .user-info + ul {
     justify-self: end;
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    list-style: none;
+    gap: 25px;
+}
+.user-info + ul > button{
+    
 }
 .sidebar{
     grid-row: 1/3;
