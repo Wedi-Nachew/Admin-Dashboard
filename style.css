@@ -73,8 +73,11 @@ div.header-second-row{
     list-style: none;
     gap: 25px;
 }
-.user-info + ul > button{
-    
+.user-info + ul  button{
+    background-color: #1992d4;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 20px;
 }
 .sidebar{
     grid-row: 1/3;
