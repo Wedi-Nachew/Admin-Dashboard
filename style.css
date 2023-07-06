@@ -163,6 +163,14 @@ div.header-second-row{
     border-radius: 15px;
     box-shadow: 0  0 5px gray;
     padding: 15px;
+    display: grid;
+}
+
+.project-cards > div > div:last-child{
+    display: grid;
+    grid-template-columns: repeat(3, 25px);
+    column-gap: 20px;
+    justify-content: end;
 }
 
 .project-cards > div > p{
@@ -170,4 +178,8 @@ div.header-second-row{
 }
 .project-cards > div > h2{
     margin-bottom: 0;
+}
+.projects img {
+    height: 25px;
+    width: auto;
 }
