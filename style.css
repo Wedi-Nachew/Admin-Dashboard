@@ -70,8 +70,13 @@ div.header-second-row{
     justify-self: end;
     display: grid;
     grid-template-columns: repeat(3,auto);
+    column-gap: 25px;
+}
+.user-info + ul,
+.user-info + ul > li {
+    margin: 0;
     list-style: none;
-    gap: 25px;
+    padding: 0;
 }
 .user-info + ul  button{
     background-color: #1992d4;
