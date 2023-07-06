@@ -100,7 +100,7 @@ div.header-second-row{
     padding: 10px 30px;
     border: none;
     border-radius: 20px;
-    
+    color: #ffffff;
 }
 .sidebar{
     grid-row: 1/3;
