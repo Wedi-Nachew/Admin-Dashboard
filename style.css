@@ -1,6 +1,7 @@
 /* font-family: 'Cormorant Garamond', serif; */
 body{
     margin: 0;
+    font-family: 'Cormorant Garamond', serif;
 }
 .container{
     display: grid;
@@ -15,6 +16,7 @@ body{
     background-color: #ffffff;
     border: none;
     box-shadow: 0 0 10px gray;
+    font-size: 1.4rem;
 }
 .header-first-row{
     display: grid;
@@ -69,6 +71,7 @@ div.header-second-row{
 }
 .user-info p:first-of-type{
     align-self: baseline;
+    font-size: 1.1rem;
 }
 .user-info p:last-child{
     align-self: top;
