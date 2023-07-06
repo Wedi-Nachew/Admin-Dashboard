@@ -13,7 +13,7 @@
 .header-first-row{
     display: grid;
     grid-template-columns: 1fr auto;
-    grid-template-rows: 40px;
+    grid-template-rows: 70px;
     column-gap: 120px;
     align-items: center;
 }
@@ -37,17 +37,23 @@ div.search{
     grid-template-columns: auto 1fr;
     gap: 10px;
 }
-input[type=search]{
+input[type="search"]{
     appearance: none;
     height: 30px;
     border-radius: 15px;
     background-color: #e2e8f0;
     border: none;
+    padding: 5px 20px;
 }
 .header  img {
     height: 30px;
     width: auto;
 }
+div.header-second-row{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
 
 .sidebar{
     grid-row: 1/3;
