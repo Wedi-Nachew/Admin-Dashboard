@@ -52,9 +52,14 @@ input[type="search"]{
 div.header-second-row{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    
 }
-
-
+.user-info{
+    justify-self: start;
+}
+.user-info + ul {
+    justify-self: end;
+}
 .sidebar{
     grid-row: 1/3;
 }
