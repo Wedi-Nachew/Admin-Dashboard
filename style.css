@@ -13,12 +13,15 @@
 .header-first-row{
     display: grid;
     grid-template-columns: 1fr auto;
-    gap: 120px;
+    grid-template-rows: 40px;
+    column-gap: 120px;
+    align-items: center;
 }
 .wrapper{
     display: grid;
     grid-template-columns: repeat(3, auto);
     gap: 30px;
+    align-items: center;
 }
 input,
 button,
