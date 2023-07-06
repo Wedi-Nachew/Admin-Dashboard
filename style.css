@@ -164,3 +164,10 @@ div.header-second-row{
     box-shadow: 0  0 5px gray;
     padding: 15px;
 }
+
+.project-cards > div > p{
+    margin-top: 0;
+}
+.project-cards > div > h2{
+    margin-bottom: 0;
+}
