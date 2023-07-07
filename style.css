@@ -205,5 +205,17 @@ div.header-second-row{
     align-items: center;
     column-gap: 15px;
 }
-
+.wrap > div > img {
+    height: 30px;
+    width: auto;
+    grid-row: span 2;
+}
+.wrap >div p:last-of-type{
+    margin-top: 0;
+    color:rgba(128, 128, 128, .8)
+}
+.wrap > div p:first-of-type{
+    font-weight: 700;
+    font-size: 1.1rem;
+}
 
