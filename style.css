@@ -38,6 +38,13 @@ body{
 .header img{
     height: 30px;
     width: auto;
+    border-radius: 50%;
+    padding: 8px;
+}
+.header img:hover,
+.header svg:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px gray;
 }
 .wrapper{
     display: grid;
@@ -114,6 +121,7 @@ div.header-second-row{
 .user-info + ul  button:hover {
     background-color: rgb(7, 43, 75);
     cursor: pointer;
+    box-shadow: 0 0 10px rgb(32, 30, 30);
 }
 .sidebar{
     grid-row: 1/3;
