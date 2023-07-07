@@ -26,7 +26,8 @@ body{
     column-gap: 150px;
     align-items: center;
 }
-.header svg{
+.header svg,
+.wrap > div:nth-of-type(3) svg{
     padding: 8px;
     border: none;
     border-radius: 50%;
@@ -223,11 +224,13 @@ h1{
     padding: 5px 15px;
     border-radius: 10px;
 }
-.wrap > div > img {
+
+.wrap > div > svg {
     height: 30px;
     width: auto;
     grid-row: span 2;
 }
+.wrap > div > svg
 .wrap > div > p:last-of-type{
     margin-top: 0;
     color:rgba(0,0,0, .65);
