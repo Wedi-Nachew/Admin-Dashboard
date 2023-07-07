@@ -148,7 +148,11 @@ div.header-second-row{
 .support{
     grid-template-rows: repeat(3, 40px)
 }
-
+.sidebar p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
 .main-content{
     grid-column: 2/3;
     grid-row: 2/3;
@@ -258,3 +262,5 @@ h1{
     box-shadow: 0 0 10px gray;
     border-radius: 10px;
 }
+
+
