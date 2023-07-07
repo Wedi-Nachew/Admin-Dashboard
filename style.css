@@ -27,7 +27,7 @@ body{
     align-items: center;
 }
 .header svg,
-.wrap > div:nth-of-type(3) svg{
+.wrap > div:nth-of-type(2) svg{
     padding: 8px;
     border: none;
     border-radius: 50%;
@@ -229,8 +229,22 @@ h1{
     height: 30px;
     width: auto;
     grid-row: span 2;
+    padding: 8px;
+    border: none;
+    border-radius: 50%;
 }
-.wrap > div > svg
+.wrap > div:last-child  svg{
+    background-color: pink;
+    fill: #400D0D;
+}
+.wrap > div:first-child  svg{
+    background-color: #E0F2FE;
+    fill: #28402B;
+}
+.wrap > div:nth-child(3)  svg{
+    background-color: gray;
+    fill: #ffffff;
+}
 .wrap > div > p:last-of-type{
     margin-top: 0;
     color:rgba(0,0,0, .65);
