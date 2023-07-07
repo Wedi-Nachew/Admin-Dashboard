@@ -199,6 +199,7 @@ div.header-second-row{
     padding: 5px 15px;
     margin: 0;
     border-radius: 10px;
+    box-shadow: 0 0 10px gray;
 }
 .announcements > div > div:not(:last-child){
     border-bottom: 2px solid rgba(128, 128, 128, .5);
@@ -229,4 +230,8 @@ h1{
 .wrap > div p:first-of-type{
     font-weight: 700;
     font-size: 1.1rem;
+}
+.wrap{
+    box-shadow: 0 0 10px gray;
+    border-radius: 10px;
 }
