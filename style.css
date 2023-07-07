@@ -286,5 +286,10 @@ h1{
     box-shadow: 0 0 10px gray;
     border-radius: 10px;
 }
+.wrap > div > svg:hover {
+    box-shadow: 0 0 5px gray;
+    cursor: pointer;
+}
+
 
 
