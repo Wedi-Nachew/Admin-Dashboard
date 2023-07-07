@@ -26,6 +26,12 @@ body{
     column-gap: 150px;
     align-items: center;
 }
+.header img[src="icon/cat.svg"]{
+    padding: 8px;
+    border: none;
+    border-radius: 50%;
+    background-color:#facc15;
+}
 .wrapper{
     display: grid;
     grid-template-columns: repeat(3, auto);
@@ -193,3 +199,4 @@ div.header-second-row{
 .announcements > div > div:not(:last-child){
     border-bottom: 2px solid rgba(128, 128, 128, .5);
 }
+
