@@ -207,7 +207,9 @@ div.header-second-row{
     justify-content: end;
 }
 
-
+.projects img:hover{
+    box-shadow:  0 0 5px gray;
+}
 .project-cards > div  p,
 .announcements p{
     margin-top: 0;
@@ -220,6 +222,8 @@ div.header-second-row{
 .projects img {
     height: 25px;
     width: auto;
+    padding: 8px;
+    border-radius: 50%;
 }
 .projects + div{
     padding-right: 20px;
