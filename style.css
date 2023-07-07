@@ -119,13 +119,15 @@ div.header-second-row{
     font-weight: 600;
     color: white;
 }
-.branding img:first-of-type{
+.branding svg:first-of-type{
     height: 50px;
     width: auto;
+    fill: white;
 }
-.sidebar img{
+.sidebar svg{
     height: 30px;
     width: auto;
+    fill: #ffffff;
 }
 
 .branding,
