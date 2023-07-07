@@ -42,15 +42,21 @@ body{
     padding: 8px;
 }
 .header img:hover,
-.header svg:hover{
+.header svg:hover,
+.wrapper p:hover {
     cursor: pointer;
     box-shadow: 0 0 10px gray;
 }
+
 .wrapper{
     display: grid;
     grid-template-columns: repeat(3, auto);
     gap: 30px;
     align-items: center;
+}
+.wrapper p{
+    padding: 8px;
+    border-radius: 25px;
 }
 input,
 button,
@@ -73,6 +79,7 @@ input[type="search"]{
     background-color: #e2e8f0;
     border: none;
     padding: 5px 20px;
+    margin-top: 8px;
 }
 div.header-second-row{
     display: grid;
